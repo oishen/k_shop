@@ -1,0 +1,36 @@
+#loginsignup{
+    width: 100%;
+    background: #fce3fe;
+    padding: 100px 0;
+}
+#loginsignup h1{
+    font-size: 30px;
+}
+#loginsignup-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+
+}
+#loginsignup-agree{
+    align-items: center;
+}
+#loginsignup-agree p{
+    margin: auto 10px;
+}
+#loginsignup a{
+    font-weight: 550;
+}
+
+@media only screen and (max-width: 576px){
+    #loginsignup-container{
+        width: 100%;
+        padding: 60px 10px;
+        height: auto;
+    }
+    #loginsignup p, #loginsignup a{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,21 @@
+#newletter{
+    width: 65%;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+#newletter p{
+    color: #454545;
+    font-size: 16px;
+    font-weight: 500;
+}
+#newletter input{
+    border: none;
+    outline: none;
+    color: #616161;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 992px){
+    #newletter{
+        width: 100%;
+    }
+}

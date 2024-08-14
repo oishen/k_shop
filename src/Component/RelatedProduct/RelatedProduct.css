@@ -1,0 +1,12 @@
+
+#relatedproduct h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+#relatedproduct #line{
+    width: 120px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #515151;
+}

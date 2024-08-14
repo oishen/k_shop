@@ -1,0 +1,11 @@
+
+#popular h2{
+    color: #171717;
+    font-weight: 600;
+}
+#popular #line{
+    width: 120px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #515151;
+}

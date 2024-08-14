@@ -1,0 +1,24 @@
+#offer{
+    width: 65%;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+#offer-left p{
+    color: #171717;
+    font-size: 14px;
+    font-weight: 500;
+}
+#offer-right img{
+    width: 60%;
+}
+
+@media only screen and (max-width: 992px){
+    #offer{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 578px){
+    #offer button{
+        font-size: 14px;
+    }
+}

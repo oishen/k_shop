@@ -1,0 +1,77 @@
+/* .navbar{
+    width: 100%;
+    padding: 10px 100px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo img{
+    width: 100px;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu hr{
+    width: 80%;
+    height: 2px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.nav-menu li{
+    cursor: pointer;
+    font-size: 16px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+.nav-login-cart{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+} */
+
+.navbar-brand img{
+    width: 100px;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+#cartnumber{
+    margin-top: -41px;
+    margin-left: 23px;
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    font-weight: 550;
+    padding: 0px 4px;
+    font-size: 10px;
+}
+.badge{
+    font-size: 10px;
+    border-radius: 50px;
+    font-weight: 100;
+    padding: 2px 5px;
+}

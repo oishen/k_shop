@@ -1,5 +1,4 @@
 #offer{
-    width: 65%;
     background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
 }
 #offer-left p{
@@ -8,7 +7,11 @@
     font-weight: 500;
 }
 #offer-right img{
-    width: 60%;
+    width: 40%;
+    padding: 20px 0;
+    object-fit: cover;
+    height: 400px;
+    width: 300px;
 }
 
 @media only screen and (max-width: 992px){
@@ -20,5 +23,9 @@
 @media only screen and (max-width: 578px){
     #offer button{
         font-size: 14px;
+    }
+    #offer-right img{
+        width: 200px;
+        height: 300px;
     }
 }

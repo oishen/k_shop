@@ -16,15 +16,15 @@ const App = () => {
         <BrowserRouter>
             <Navbar/>
             <Routes>
-                <Route path="/k_shop/" element={<Shop/>} />
-                <Route path="/k_shop/mens" element={<ShopCategory category="mens" banner={men_banner}/>} />
-                <Route path="/k_shop/womens" element={<ShopCategory category="womens" banner={women_banner}/>} />
-                <Route path="/k_shop/kids" element={<ShopCategory category="kids" banner={kid_banner}/>} />
-                <Route path="/k_shop/product" element={<Product/>} >
+                <Route path="/k-shop/" element={<Shop/>} />
+                <Route path="/k-shop/mens" element={<ShopCategory category="mens" banner={men_banner}/>} />
+                <Route path="/k-shop/womens" element={<ShopCategory category="womens" banner={women_banner}/>} />
+                <Route path="/k-shop/kids" element={<ShopCategory category="kids" banner={kid_banner}/>} />
+                <Route path="/k-shop/product" element={<Product/>} >
                     <Route path=":productId" element={<Product/>}/>
                 </Route>
-                <Route path="/k_shop/cart" element={<Cart/>}/>
-                <Route path="/k_shop/login" element={<LoginSignup/>} />
+                <Route path="/k-shop/cart" element={<Cart/>}/>
+                <Route path="/k-shop/login" element={<LoginSignup/>} />
             </Routes>
             <Footer/>
         </BrowserRouter>

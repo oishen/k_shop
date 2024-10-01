@@ -6,7 +6,7 @@ const Item = (props) => {
         <div id="item" className="col-sm-3 col-4 justify-content-center d-flex">
             <div>
                 <div id="divImg">
-                    <Link to={`/k_shop/product/${props.id}`}>
+                    <Link to={`/k-shop/product/${props.id}`}>
                         <img src={props.image} alt="" onClick={window.scroll(0,0)} />
                         {/* <img src={props.image} alt="" /> */}
                     </Link>

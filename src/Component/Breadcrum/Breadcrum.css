@@ -6,3 +6,6 @@
 #breadcrum i{
     padding: 0 10px;
 }
+#breadcrum .btn:hover{
+    color: #FFC516;
+}

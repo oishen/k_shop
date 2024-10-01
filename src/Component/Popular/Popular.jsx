@@ -15,7 +15,7 @@ const Popular = () => {
         <div id="popular" className="container-lg mt-5 mb-5">
             <h2 className="h2 text-center">POPULAR IN WOMEN</h2>
             <div id="line" className="m-auto "> </div>
-            <div className="row mt-5 row-gap-5">
+            <div className="row mt-5">
                 {filter.map((item, i) => {
                     return <Item key={i} id={item.id} name={item.name} image={item.images[0]} new_price={item.new_price} old_price={item.old_price} />
                 } )}
